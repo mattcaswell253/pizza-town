@@ -8,6 +8,46 @@
     <title>Pizza-Town</title>
   </head>
   <body>
+    <div class="container bg-warning">
+        <div class="jumbotron">
+          <h1>Pizza Pie Palace</h1>
+        </div>
 
+        <form id="order-form">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>How big do you like your pie?:</h2>
+              <div class="size">
+                <select id="size" class="form-control">
+                    <option value="1">Personal</option>
+                    <option value="2">Schmedium</option>
+                    <option value="3">Large</option>
+                    <option value="4">Family-size</option>
+                  </select>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <h2>What Kinda Topping You Like?</h2>
+                        <input type="checkbox" name="toppings" value="pepperoni" id="pepperoni">
+                        <label for="pepperoni">Pepperoni.</label><br>
+                        <input type="checkbox" name="toppings" value="salami" id="salami"><label for="salami">Salami.</label><br>
+                        <input type="checkbox" name="toppings" value="chicken" id="chicken"><label for="chicken">Chicken.</label><br>
+                        <input type="checkbox" name="toppings" value="onions" id="onions"><label for="onions">Onions.</label><br>
+                        <input type="checkbox" name="toppings" value="jalepeno" id="jalepeno"><label for="jalepeno">Jalepeno.</label><br>
+                        <input type="checkbox" name="toppings" value="red-sauce" id="red-sauce"><label for="red-sauce">Red Sauce.</label><br>
+                        <input type="checkbox" name="toppings" value="white-sauce" id="white-sauce"><label for="white-sauce">White Sauce.</label><br>
+                      </div>
+                    </div>
+
+                    <button type="submit">Order!</button>
+                  </div>
+                </form>
+
+                <div class="final-cost">
+                  <p>Total: <span id="total"></span></p>
+              </div>
+
+            </div>
   </body>
 </html>
