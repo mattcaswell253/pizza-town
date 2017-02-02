@@ -12,6 +12,10 @@ button {
   text-align: center;
 }
 
+.final-cost {
+  padding-left: 30px;
+}
+
 body {
   background-image: url(../img/back.jpg);
   min-height:100%;
