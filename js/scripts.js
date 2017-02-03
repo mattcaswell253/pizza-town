@@ -20,7 +20,7 @@ this.size = size;
 }
 
 Pizza.prototype.price = function() {
-  var toppingPrice = .50;
+  var toppingPrice = 1.50;
   var sizePriceStep = 2.00;
   var price = 0.00;
 

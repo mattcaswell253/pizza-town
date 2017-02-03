@@ -13,7 +13,11 @@ button {
 }
 
 .final-cost {
-  padding-left: 30px;
+  padding-left: 20px;
+}
+
+h1 {
+  font-family: 'Nosifer', cursive;
 }
 
 body {
@@ -22,4 +26,12 @@ body {
 background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: cover;
+}
+
+#total {
+  font-family: 'Nosifer', cursive;
+}
+
+.final-cost {
+  font-family: 'Nosifer', cursive;
 }
