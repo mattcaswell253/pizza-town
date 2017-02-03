@@ -12,8 +12,14 @@ _select your pizza size and toppings and it will calculate the price of the give
 
 * _clone repository from git hub_
 
+## Specs
+_Select size of pizza and price is given for specific pizza selected_
+_input: personal pizza_
+_output:$4
 
-
+select toppings and 1.50 is added for every topping selected
+input: 3 toppings
+output: $4.50 
 
 ## Support and contact details
 
