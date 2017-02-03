@@ -1,4 +1,4 @@
-# _Pizza-Town_
+# _Pizza Pie Palace_
 
 #### _pick a pizza with toppings and size, February 2nd, 2017_
 
